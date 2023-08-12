@@ -1,6 +1,6 @@
 FROM jaketoo/jakootel:slim-buster
 
-RUN git clone https://github.com/jaketoo/jakootel.git /root/jmrobot
+RUN git clone https://github.com/jaketoo/jakootel/tree/master.git /root/jmrobot
 
 WORKDIR /root/jmrobot
 
