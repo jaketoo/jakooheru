@@ -1,13 +1,13 @@
 {
-  "name": "JMTHON",
-  "description": " Arabic jmthonc Powerful & Safe based on Telethon",
-  "logo": "https://telegra.ph/file/d90dfa4c680c0d0d2e652.jpg",
+  "name": "jakoo",
+  "description": " Arabic jakoo Powerful & Safe based on Telethon",
+  "logo": "https://telegra.ph/file/1860b3cdf99b31e50dab5.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/jmthonr/temp",
+  "repository": "https://github.com/jaketoo/jakooheru",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -52,7 +52,7 @@
     },
     "TZ": {
       "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
-      "value": "Asia/Baghdad",
+      "value": "Africa/Cairo",
       "required": false
     }
   },
