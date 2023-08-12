@@ -92,7 +92,7 @@ _set_bot () {
     echo "
 
     "
-    python3 -m jmrobot
+    python3 -m jakootelbot
 }
 
 _set_bot
