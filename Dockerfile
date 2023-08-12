@@ -1,11 +1,11 @@
-FROM jaketoo/jakootel:slim-buster
+FROM jaketoo/jakootelbot:slim-buster
 
-RUN git clone https://github.com/jaketoo/jakootel/tree/master.git /root/jmrobot
+RUN git clone https://github.com/jaketoo/jakootelbot.git /root/jakootelbot
 
-WORKDIR /root/jmrobot
+WORKDIR /root/jakootelbot
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-ENV PATH="/home/jmrobot/bin:$PATH"
+ENV PATH="/home/jakootelbot/bin:$PATH"
 
-CMD ["python3","-m","jmrobot"]
+CMD ["python3","-m","jakootelbot"]
